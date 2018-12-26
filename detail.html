@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Detail</title>
+    <meta name="description" content="Something about the blog." />
+    <link href="https://fonts.googleapis.com/css?family=Duru+Sans&amp;subset=latin-ext" rel="stylesheet" />
+    <!-- All CSS Files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/blog.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-responsive.min.css" />
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="navbar navbar-inverse">
+            <div class="navbar-inner">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="brand" href="index.html">BLOG</a> <span class="blog-title">/ my blog</span>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="detail.html">post</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End -->
+        <div class="row-fluid row-heading">
+            <div class="span8"><h1>Post Detail</h1></div>
+            <div class="span4 text-right">
+                <form class="form-search" method="get" action="#" id="search-form">
+                    <div class="input-append">
+                        <input type="text" name="search" class="span10 search-query" placeholder="Search...">
+                        <button type="submit" class="btn btn-inverse"><i class="icon-search icon-white"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Content -->
+        <div class="row-fluid">
+            <div class="span8 well">
+                <h1>h1. Heading 1</h1>
+                <p>A blog is a discussion or informational website published on the World Wide Web consisting of discrete, often informal diary-style text entries (posts). Posts are typically displayed in reverse chronological order... (Wikipedia)</p>
+                <h2>h2. Heading 2</h2>
+                <p class="lead">A blog is a discussion or informational website published on the World Wide Web consisting...</p>
+                <ul>
+                    <li>A blog is a discussion or informational...</li>
+                    <li>A blog is a discussion or informational...</li>
+                    <li>A blog is a discussion or informational...</li>
+                </ul>
+                <h3>h3. Heading 3</h3>
+                <small>A blog is a discussion or informational website ...</small><br />
+                <strong>A blog is a discussion or informational website ...</strong><br />
+                <p class="text-error">A blog is a discussion or informational website published on <abbr title="website">website</abbr> ....</p><br />
+                <blockquote>
+                    <p>A blog is a discussion or informational website published on the World Wide Web...</p>
+                    <small>My Blog</small>
+                </blockquote>
+            </div>
+            <div class="span4">
+                <div class="brackets">}</div>
+                date : mar 2013<br />
+                category : <a href="#">personel</a>
+            </div>
+        </div>
+        <!-- End -->
+        <!-- Comment -->
+        <div class="row-fluid">
+            <div class="span4">
+                <form action="#" id="comment-form" method="post">
+                    <fieldset>
+                        <legend><small>Leave a Comment</small></legend>
+                        <div class="control-group">
+                            <div class="controls">
+                                <input type="text" class="input-xlarge required" name="name" id="name" placeholder="Name" />
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls">
+                                <input type="text" class="input-xlarge required email" name="email" id="email" placeholder="Email" />
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls">
+                                <textarea class="input-xlarge required" name="message" id="message" rows="3" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls">
+                                <button type="submit" class="btn btn-inverse"><i class="icon-white icon-ok"></i> Send</button>
+                                <button type="reset" class="btn">Reset</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="span8">
+                <span class="comments">Comments</span><br />
+                <i class="icon-black icon-user"></i> <strong>Guest</strong> : Nice writing.<br /><br />
+                <i class="icon-black icon-user"></i> <strong>Guest</strong> : Great, thanks.<br /><br />
+                <i class="icon-pencil icon-comment"></i> <small>Total <b>2</b> comments. </small>
+            </div>
+        </div>
+        <!-- End -->
+        <!-- Footer -->
+        <div class="footer">
+            © 2013 example.blog - <a href="#">twitter</a> - <a href="#">github</a> - <a href="#">email</a> - <a href="#">rss</a>
+        </div>
+        <!-- End -->
+    </div>
+    <!-- All JS Files -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/blog.js"></script>
+</body>
+</html>
